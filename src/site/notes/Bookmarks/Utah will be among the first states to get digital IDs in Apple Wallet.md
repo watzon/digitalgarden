@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/bookmarks/utah-will-be-among-the-first-states-to-get-digital-i-ds-in-apple-wallet/"}
+{"dg-publish":true,"permalink":"/bookmarks/utah-will-be-among-the-first-states-to-get-digital-i-ds-in-apple-wallet/","noteIcon":""}
 ---
 
 
