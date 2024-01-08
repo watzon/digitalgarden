@@ -13,6 +13,10 @@ This will not replace my blog, which you can find [here](https://watzon.tech/pos
 ## What is a Digital Garden?
 Honestly this is an idea that's new to me, so I wouldn't be the best person to explain it. It would be worth reading [[Bookmarks and Highlights/Collections/Articles/A Brief History and Ethos of the Digital Garden\|A Brief History and Ethos of the Digital Garden]] though if you'd like to learn about it.
 
+Speaking on this digital garden though, I use Obsidian for note taking and the [Obsidian Digital Garden](https://dg-docs.ole.dev/) plugin to handle publishing notes to [Github](https://github.com/watzon/digitalgarden). The site is hosted through Netlify which automatically builds and deploys when new changes are pushed to Github. 
+
 ## Links and Socials
-- Fediverse [@watzon@watzonmanor.com](https://watzonmanor.com/@watzon)
 - Personal website and blog [watzon.tech](https://watzon.tech)
+- Fediverse [@watzon@watzonmanor.com](https://watzonmanor.com/@watzon)
+- Github [@watzon](https://github.com/watzon)
+- TikTok [@3dprintifer](https://tiktok.com/@3dprintifer)
