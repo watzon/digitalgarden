@@ -8,11 +8,11 @@ There are several open source projects which claim to be alternatives to Cloudin
 - [Athena](https://athenaframework.org/) backend (Crystal web framework inspired by Symfony)
 - [Nuxt](https://nuxt.com/) frontend
 
-Since I'll be using Crystal, it only make sense to use [Pixie](https://github.com/watzon/pixie) as an ImageMagick library. If I didn't dislike Django and Flask so much I would probably use [Pillow-SMID](https://github.com/uploadcare/pillow-simd) like Uploadcare does, but _c'est la vie_.
+Since I'll be using Crystal, it only makes sense to use [Pixie](https://github.com/watzon/pixie) as an ImageMagick library. If I didn't dislike Django and Flask so much I would probably use [Pillow-SMID](https://github.com/uploadcare/pillow-simd) like Uploadcare does, but _c'est la vie_.
 
 ## Ideas
 - I want to make the URL format very similar to what Cloudinary does (`/:uuid/-/:transform/:options`). This should be pretty easy to do in Athena [^1].
-- This should include support for [[Bookmarks and Highlights/Collections/Programming/Progressive JPEG images What Is It and How It Can Improve Website Performance\|progressive JPEG's]] and other optimizations.
+- This should include support for [[Bookmarks and Highlights/Collections/Programming/Progressive JPEG images What Is It and How It Can Improve Website Performance\|progressive JPEG's]], [auto format conversion](https://uploadcare.com/docs/transformations/image/compression/#operation-format-auto), [metadata stripping](https://uploadcare.com/docs/transformations/image/compression/#meta-information-control), and more.
 - To start off with I'm imagining something pretty simple:
 	- There needs to be a way to upload files and manage uploaded files.
 	- Clicking a file should take you to a page where you can apply transformations to the image and get a link.
