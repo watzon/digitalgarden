@@ -4,7 +4,7 @@
 
 The following are personal web and software projects, and ideas for future projects.
 
-## Self hosted Cloudinary alternative
+## [[Self hosted Cloudinary alternative\|Self hosted Cloudinary alternative]]
 There are several open source projects which claim to be alternatives to Cloudinary, but all of them (that I can find) are completely API based and work on URLs to existing images. What I would like to see is a full self-hosted website which allows you to upload images, apply modifications, and grab links to the cached image.
 
 ### Inspiration:
