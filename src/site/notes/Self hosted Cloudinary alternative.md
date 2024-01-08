@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/self-hosted-cloudinary-alternative/","noteIcon":""}
 ---
 
-There are several open source projects which claim to be alternatives to Cloudinary and [[Bookmarks and Highlights/Collections/Articles/A handier Cloudinary alternative Uploadcare. Review &amp; comparison — Uploadcare Blog\|Uploadcare]], but all of them (that I can find) are completely API based and work on URLs to existing images. What I would like to see is a full self-hosted website which allows you to upload images, apply modifications, and grab links to the cached image.
+There are several open source projects which claim to be alternatives to Cloudinary and [[Bookmarks and Highlights/Collections/Articles/A handier Cloudinary alternative Uploadcare. Review and comparison — Uploadcare Blog\|Uploadcare]], but all of them (that I can find) are completely API based and work on URLs to existing images. What I would like to see is a full self-hosted website which allows you to upload images, apply modifications, and grab links to the cached image.
 
 ## Stack
 - [Athena](https://athenaframework.org/) backend (Crystal web framework inspired by Symfony)
