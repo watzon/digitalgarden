@@ -13,6 +13,7 @@ Since I'll be using Crystal, it only makes sense to use [Pixie](https://github.c
 ## Ideas
 - I want to make the URL format very similar to what Cloudinary does (`/:uuid/-/:transform/:options`). This should be pretty easy to do in Athena [^1].
 - This should include support for [[Bookmarks and Highlights/Collections/Programming/Progressive JPEG images What Is It and How It Can Improve Website Performance\|progressive JPEG's]], [auto format conversion](https://uploadcare.com/docs/transformations/image/compression/#operation-format-auto), [metadata stripping](https://uploadcare.com/docs/transformations/image/compression/#meta-information-control), and more.
+- S3 and minio should be supported as storage backends.
 - To start off with I'm imagining something pretty simple:
 	- There needs to be a way to upload files and manage uploaded files.
 	- Clicking a file should take you to a page where you can apply transformations to the image and get a link.
