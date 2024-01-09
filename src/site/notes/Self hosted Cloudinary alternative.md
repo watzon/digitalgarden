@@ -22,7 +22,31 @@ Since I'll be using Crystal, it only makes sense to use [Pixie](https://github.c
 	- JavaScript libraries for popular frameworks
 	- Embeddable uploader
 	- Webhooks
+	- Support for videos
 
+## Needed Routes
+
+- `GET /image/:uuid/:transformations` - fetch the given image by id and apply the requested transformations. The `/image` prefix will make it easier to transform this route in NGINX or Caddy.
+- `/api`
+	- `GET /health` - return API status information
+	- `/projects`
+		- `GET /` - list all projects
+		- `GET /:uuid` - return information about the given project
+		- `POST /` - create a project
+		- `PATCH /:uuid` - update a project
+		- `DELETE /:uuid` - delete a project
+		- `/files`
+			- `GET /` - list all files for the given project
+			- `GET /:uuid` - return information about the given file
+			- `POST /` - upload an file
+			- `PATCH /:uuid` - modify an files's name, metadata, etc.
+			- `DELETE /:uuid` - delete a file
+			- `GET /:uuid/cached` - return information about cached versions of a file
+			- `GET /:uuid/analytics` - return analytics about a file
+		- `/analytics`
+			- `GET /traffic` - CDN bandwidth usage
+			- `GET /storage` - storage usage
+			- `GET /requests` - API requests
 ## Inspiration
 
 ![Pasted image 20240108150411.png](/img/user/attachments/Pasted%20image%2020240108150411.png)
