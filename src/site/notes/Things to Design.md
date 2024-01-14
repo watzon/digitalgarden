@@ -12,4 +12,4 @@ I love engineering, both software and mechanical. This has led to a love for 3d 
 - Tortilla press
 - Modular mini server rack
 - Hanging paper towel holder
-- Ice melt shaker
+- Ice melt shaker ([printables](https://www.printables.com/model/722295-ice-melt-shaker-giant-salt-shaker), [makerworld](https://makerworld.com/en/models/139387))
